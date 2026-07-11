@@ -1,5 +1,4 @@
 import { STORE_WHATSAPP } from '../config/store'
-
 export function buildWhatsAppUrl(message) {
   const encoded = encodeURIComponent(message)
   return `https://wa.me/${STORE_WHATSAPP}?text=${encoded}`

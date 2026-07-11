@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,jsx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
@@ -19,6 +20,10 @@ export default {
           800: "#9d174d",
           900: "#831843",
         },
+      },
+      fontFamily: {
+        cairo: ['Cairo', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
       },
     },
   },
